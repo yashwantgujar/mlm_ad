@@ -315,8 +315,8 @@ export default function Login() {
 
         {error && <div className="alert alert-danger py-2">{error}</div>}
         {success && <div className="alert alert-success py-2">{success}</div>}
-
-        {!isLoggedIn && (
+{/* 
+        {!isLoggedIn && ( */}
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label className="form-label">Login As</label>
@@ -386,8 +386,8 @@ export default function Login() {
 
             </div>
           </form>
-        )}
-
+        {/* )} */}
+{/* 
         {isLoggedIn && (
           <div className="text-center p-4 bg-light rounded-4 shadow-sm mt-4">
   <p className="text-success fs-5 fw-semibold mb-3">
@@ -396,7 +396,7 @@ export default function Login() {
  
 </div>
 
-        )}
+        )} */}
       </div>
     </div>
   );

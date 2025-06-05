@@ -251,8 +251,8 @@ const showReferralSection = hasReferral1 || hasReferral2;
 
 {/* Referral Usage Section */}
 <div className="card shadow-sm mb-5" style={{ position: "relative", minHeight: "150px" }}>
-  <div className="card-header bg-info text-white d-flex justify-content-between align-items-center py-3 px-4">
-    <h5 className="mb-0 fw-bold">Referral Usage</h5>
+  <div className="card-header  text-white d-flex justify-content-between align-items-center py-3 px-4">
+    <h5 className="mb-0 fw-bold"></h5>
     
     {/* Toggle Panel Button */}
     <div className="position-relative">
